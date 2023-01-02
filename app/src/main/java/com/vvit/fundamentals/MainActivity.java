@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
         Button helloToast = findViewById(R.id.id_hello_toast);
         Button storeKeeper = findViewById(R.id.id_score_keeper);
         Button scrollText = findViewById(R.id.id_scroll_text);
+        Button keyboardDialPhone = findViewById(R.id.id_keyboard_dial_phone);
         helloToast.setOnClickListener(view -> {
             Intent intent = new Intent(MainActivity.this, HelloToast.class);
             startActivity(intent);
@@ -28,6 +29,11 @@ public class MainActivity extends AppCompatActivity {
         });
         scrollText.setOnClickListener(view -> {
             Intent intent = new Intent(MainActivity.this, ScrollText.class);
+            startActivity(intent);
+            finish();
+        });
+        keyboardDialPhone.setOnClickListener(view -> {
+            Intent intent = new Intent(MainActivity.this, KeyboardDialPhone.class);
             startActivity(intent);
             finish();
         });
