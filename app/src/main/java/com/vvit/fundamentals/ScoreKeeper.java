@@ -21,8 +21,6 @@ public class ScoreKeeper extends AppCompatActivity {
         // TODO: Find the TextViews by ID
 
     }
-
-
     public void decreaseScore(View view) {
         /* TODO: Handles the onClick of both the decrement buttons.
          *
@@ -30,8 +28,6 @@ public class ScoreKeeper extends AppCompatActivity {
          */
         // TODO: Get the ID of the button that was clicked.
     }
-
-
     public void increaseScore(View view) {
         /* TODO: Handles the onClick of both the increment buttons.
          *

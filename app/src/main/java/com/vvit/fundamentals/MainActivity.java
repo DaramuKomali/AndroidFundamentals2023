@@ -15,6 +15,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Button helloToast = findViewById(R.id.id_hello_toast);
         Button storeKeeper = findViewById(R.id.id_score_keeper);
+        Button scrollText = findViewById(R.id.id_scroll_text);
         helloToast.setOnClickListener(view -> {
             Intent intent = new Intent(MainActivity.this, HelloToast.class);
             startActivity(intent);
@@ -22,6 +23,11 @@ public class MainActivity extends AppCompatActivity {
         });
         storeKeeper.setOnClickListener(view -> {
             Intent intent = new Intent(MainActivity.this, ScoreKeeper.class);
+            startActivity(intent);
+            finish();
+        });
+        scrollText.setOnClickListener(view -> {
+            Intent intent = new Intent(MainActivity.this, ScrollText.class);
             startActivity(intent);
             finish();
         });
