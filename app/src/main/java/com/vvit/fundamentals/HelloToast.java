@@ -13,6 +13,7 @@ public class HelloToast extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_hello_toast);
+        setTitle(R.string.title_name_hello_toast);
         // TODO: Obtain reference for View by id
     }
 
