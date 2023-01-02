@@ -43,5 +43,11 @@
             android:id="@+id/id_scroll_text"
             android:text="@string/title_name_scroll_text"
             android:gravity="center"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/id_implicit_intents"
+            android:text="@string/title_name_implicit_intents"
+            android:gravity="center"/>
     </LinearLayout>
 </LinearLayout>

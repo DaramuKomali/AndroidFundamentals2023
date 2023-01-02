@@ -39,4 +39,14 @@ This volume starts with the first new Beatle song, “Free as a Bird” (based o
 </string>
     <string name="title_name_keyboard_dial_phone">Keyboard Dial Phone</string>
     <string name="enter_phone">Enter a phone number</string>
+    <string name="title_name_implicit_intents">Implicit Intents</string>
+    <string name="edittext_uri">http://developer.android.com</string>
+    <string name="button_uri">Open Website</string>
+
+    <string name="edittext_loc">Guntur</string>
+    <string name="button_loc">Open Location</string>
+
+    <string name="edittext_share">\'Twas brillig and the slithy toves</string>
+    <string name="button_share">Share This Text</string>
+    <string name="share_text_with">Share this text with:</string>
 </resources>
