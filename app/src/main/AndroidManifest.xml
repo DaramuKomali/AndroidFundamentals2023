@@ -16,6 +16,20 @@
         android:theme="@style/Theme.Fundamentals"
         tools:targetApi="31">
         <activity
+            android:name=".Screen2"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".TwoActivities"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".ImplicitIntents"
             android:exported="false">
             <meta-data

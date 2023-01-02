@@ -18,6 +18,8 @@ public class MainActivity extends AppCompatActivity {
         Button scrollText = findViewById(R.id.id_scroll_text);
         Button keyboardDialPhone = findViewById(R.id.id_keyboard_dial_phone);
         Button implicitIntents = findViewById(R.id.id_implicit_intents);
+        Button twoActivities = findViewById(R.id.id_two_activities);
+
         helloToast.setOnClickListener(view -> {
             Intent intent = new Intent(MainActivity.this, HelloToast.class);
             startActivity(intent);
@@ -43,5 +45,11 @@ public class MainActivity extends AppCompatActivity {
             startActivity(intent);
             finish();
         });
+        twoActivities.setOnClickListener(view -> {
+            Intent intent = new Intent(MainActivity.this, TwoActivities.class);
+            startActivity(intent);
+            finish();
+        });
+
     }
 }
