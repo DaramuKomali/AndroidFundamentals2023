@@ -16,8 +16,24 @@
         android:theme="@style/Theme.Fundamentals"
         tools:targetApi="31">
         <activity
+            android:name=".OrderActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".DroidCafeSettings"
+            android:exported="false"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".DroidCafe"
-            android:exported="false" android:theme="@style/AppTheme.NoActionBar">
+            android:exported="false"
+            android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />

@@ -67,6 +67,13 @@
             android:id="@+id/id_droid_cafe"
             android:text="@string/title_name_droid_cafe"
             android:gravity="center"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/id_droid_cafe_settings"
+            android:text="@string/title_name_droid_cafe_settings"
+            android:gravity="center"/>
+
 
     </LinearLayout>
 </LinearLayout>
