@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
         Button implicitIntents = findViewById(R.id.id_implicit_intents);
         Button twoActivities = findViewById(R.id.id_two_activities);
         Button lifeCycle = findViewById(R.id.id_life_cycle);
+        Button droidCafe = findViewById(R.id.id_droid_cafe);
 
         helloToast.setOnClickListener(view -> {
             Intent intent = new Intent(MainActivity.this, HelloToast.class);
@@ -52,6 +53,11 @@ public class MainActivity extends AppCompatActivity {
         });
         lifeCycle.setOnClickListener(view -> {
             Intent intent = new Intent(MainActivity.this, LifeCycle.class);
+            startActivity(intent);
+            finish();
+        });
+        droidCafe.setOnClickListener(view -> {
+            Intent intent = new Intent(MainActivity.this, DroidCafe.class);
             startActivity(intent);
             finish();
         });
