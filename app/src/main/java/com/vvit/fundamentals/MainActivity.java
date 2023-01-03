@@ -1,11 +1,10 @@
 package com.vvit.fundamentals;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
 import android.widget.Button;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -19,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
         Button keyboardDialPhone = findViewById(R.id.id_keyboard_dial_phone);
         Button implicitIntents = findViewById(R.id.id_implicit_intents);
         Button twoActivities = findViewById(R.id.id_two_activities);
+        Button lifeCycle = findViewById(R.id.id_life_cycle);
 
         helloToast.setOnClickListener(view -> {
             Intent intent = new Intent(MainActivity.this, HelloToast.class);
@@ -47,6 +47,11 @@ public class MainActivity extends AppCompatActivity {
         });
         twoActivities.setOnClickListener(view -> {
             Intent intent = new Intent(MainActivity.this, TwoActivities.class);
+            startActivity(intent);
+            finish();
+        });
+        lifeCycle.setOnClickListener(view -> {
+            Intent intent = new Intent(MainActivity.this, LifeCycle.class);
             startActivity(intent);
             finish();
         });

@@ -55,5 +55,12 @@
             android:id="@+id/id_two_activities"
             android:text="@string/title_name_two_activities"
             android:gravity="center"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/id_life_cycle"
+            android:text="@string/title_name_life_cycle"
+            android:gravity="center"/>
+
     </LinearLayout>
 </LinearLayout>
